@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import '../../public/css/styles.css';
+import { Hero } from './hero';
+import { HeroDetailComponent } from './hero-detail.component';
 
 const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
@@ -13,11 +15,6 @@ const HEROES: Hero[] = [
   { id: 19, name: 'Magma' },
   { id: 20, name: 'Tornado' }
 ];
-
-export class Hero {
-	id: number;
-	name: string;
-}
 
 @Component({
   selector: 'my-app',
