@@ -1,8 +1,8 @@
 {
-  "name": "angular2-quickstart-webpack",
+  "name": "angular2-tour-of-heroes-webpack",
   "version": "1.0.0",
-  "description": "A webpack starter for angular 2",
-  "tags": "Angular2 Angular 2 Quickstart Webpack Hello World",
+  "description": "Angular 2 tour of heroes with webpack starter.",
+  "tags": "Angular2 Angular 2 Quickstart Webpack Hello World Tour Of Heroes",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
