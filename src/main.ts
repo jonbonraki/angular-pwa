@@ -4,4 +4,8 @@ import { AppModule } from './app/app.module';
 if (process.env.ENV === 'production') {
   enableProdMode();
 }
-platformBrowserDynamic().bootstrapModule(AppModule);
+platformBrowserDynamic().bootstrapModule(AppModule).then(()=>{
+if ('serviceWorker' in navigator) {
+    navigator['serviceWorker'].register('worker-basic.min.js');
+}
+});
